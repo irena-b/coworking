@@ -1,0 +1,65 @@
+.animation {
+    background: url('../../img/animation.jpg') no-repeat;
+    background-size: cover;
+    min-width:100%;
+    min-height: 100%;
+    text-align: center;
+    position: relative;
+   
+}
+.animation__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.animation__wrap{
+    animation: jello 2s;
+  
+   
+}
+.animation__logo-text {
+    text-transform: uppercase;
+    font-family: 'Gotham Pro';
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+.animation__button {
+    margin-top: 30px;
+}
+.animation__button-link {
+    color: #d800aa;
+    text-transform: uppercase;
+    font-family: 'Gotham Pro';
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border: 3px solid #d800aa;
+    text-decoration: none;
+}
+
+@keyframes jello {
+22% {
+    transform: skewX(-12deg) skewY(-12deg);
+}
+33% {
+    transform: skewX(6deg) skewY(6deg);    
+}
+44% {
+    transform: skewX(-3deg) skewY(-3deg);
+    
+}
+55% {
+    transform: skewX(1.5deg) skewY(1.5deg);    
+}
+66% {
+    transform: skewX(-0.75deg) skewY(-0.75deg);
+}
+77% {
+    transform: skewX(0.3deg) skewY(0.3deg);
+}
+90% {
+    transform: skewX(-0.2deg) skewY(-0.2deg);
+}
+}

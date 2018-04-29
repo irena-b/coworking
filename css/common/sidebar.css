@@ -1,0 +1,66 @@
+.nav {
+    float: left;
+    margin-left: 40px;
+    margin-top: 65px;
+    width: 180px;
+}
+.nav__item{
+    margin-bottom: 30px;
+}
+.nav__link {
+    text-decoration: none;
+}
+
+.nav__icon{
+width: 20px;
+height: 20px;
+display: inline-block;
+vertical-align: middle;
+}
+.nav__icon_main {
+background: url('../../img/icons/main-icon_nohover.png') 0 0 no-repeat;    
+}
+.nav__icon_reviews {
+background: url('../../img/icons/star_comments.png') 0 0 no-repeat;    
+}
+.nav__icon_price {
+background: url('../../img/icons/wallet_prices.png') 0 0 no-repeat;    
+    
+}
+.nav__text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: "Gotham Pro";
+    color: rgb(236, 30, 121);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px;
+      
+}
+.nav__link:hover .nav__text {
+    color: #000;
+    transform: 5s;
+    }
+.nav__link:hover .nav__icon_main {
+    background-image: url('./../../img/icons/triangle_main.png')
+}
+.nav__link:hover .nav__icon_reviews {
+    background-image: url('./../../img/icons/star_blackhover.png')
+}
+.nav__link:hover .nav__icon_price {
+    background-image: url('./../../img/icons/wallet-hover.png')
+}
+.nav__icon_active .nav__text {
+    color: #000;    
+}
+.nav__icon_active .nav__icon_main{
+    background-image: url('./../../img/icons/triangle_main.png')
+    
+}
+.nav__icon_active .nav__icon_reviews{
+    background-image: url('./../../img/icons/star_blackhover.png')
+}
+.nav__icon_active .nav__icon_price{
+    background-image: url('./../../img/icons/wallet-hover.png')
+}

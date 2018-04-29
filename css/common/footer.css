@@ -1,0 +1,79 @@
+.footer {
+    height: 77px;
+    background-color: #27273e;
+    min-width: 100%;
+    position: relative;
+    color: #fff;
+    margin-top: -77px;
+}
+.footer__left, .footer__center, .footer__right  {
+    float: left;
+    width: 30%;
+}
+
+.footer__left {
+margin-left: 20px;
+margin-top: 12px;
+}
+
+.footer__logo {
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 250px;
+}
+.socials {
+text-align: left;
+width: 180px;
+padding-top: 13px;
+margin-left: 300px;
+}
+
+.socials__list {
+    padding-top:10px;
+}
+.socials__text {
+font-size: 14px;
+font-family: "Gotham Pro";
+color: #fff;
+font-weight: bold;  
+}
+.social__item {
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+.social__icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.social__icon.vk {
+    background: url('../../img/icons/vk.png') center center no-repeat;
+}
+.social__icon.vk:hover {
+    background: url('../../img/icons/vk_hover.png') center center no-repeat;
+}
+.social__icon.facebook {
+    background: url('../../img/icons/fb.png') center center no-repeat;
+}
+.social__icon.facebook:hover {
+    background: url('../../img/icons/fb_hover.png') center center no-repeat;
+}
+.social__icon.google {
+    background: url('../../img/icons/google.png') center center no-repeat;
+}
+.social__icon.google:hover {
+    background: url('../../img/icons/google_hover.png') center center no-repeat;
+}
+.social__icon.twitter {
+    background: url('../../img/icons/twitter.png') center center no-repeat;
+}
+.social__icon.twitter:hover {
+    background: url('../../img/icons/twitter_hover.png') center center no-repeat;
+}
+.social__icon.mail {
+    background: url('../../img/icons/mail.png') center center no-repeat;
+}
+.social__icon.mail:hover {
+    background: url('../../img/icons/mail_hover.png') center center no-repeat;
+}

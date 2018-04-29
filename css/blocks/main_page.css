@@ -1,0 +1,110 @@
+.banner__img {
+    width: 100%;
+}
+.title {
+    font-size: 49px;
+    font-family: "Gotham Pro";
+    color: rgb(34, 31, 31);
+    font-weight: bold;
+  }
+.features__item {
+    display: inline-block;
+    width: 220px;
+    margin-right: 50px;
+}
+.features__item:last-child {
+    margin-right: 10px;
+    
+}
+.features__image {
+    background: url('../../img/icons/flower_unic.png') center center no-repeat;
+    height: 70px;
+    display: block;
+    text-align: center;
+}
+.features__title {
+font-size: 12px;
+font-family: "Gotham Pro";
+color: rgb(33, 33, 33);
+font-weight: bold;
+text-transform: uppercase;  
+text-align: center;
+margin: 30px 0px;
+}
+.features__text {
+font-size: 18px;
+font-family: "Gotham Pro";
+color: rgb(34, 31, 31);
+text-align: center;
+line-height: 1.667;
+}
+.features__list_inside {
+font-size: 18px;
+font-family: "Gotham Pro";
+color: rgb(34, 31, 31);
+text-align: left;
+list-style: disc;
+line-height: 1.667;
+list-style-position: inside;
+}
+.features__item_inside {
+list-style-position: inside;
+
+}
+
+.content {
+    width: 800px;
+    float: left;
+}
+.news__list {
+    list-style:none;
+}
+
+
+.news__image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+
+.news__item {
+    margin-bottom: 40px;
+}
+
+.news__item-wrap {
+border-bottom: 2px solid #f5f5f5;
+display: inline-block;
+padding-bottom: 40px;
+}
+.news__item-wrap:last-child {
+    border: none;
+}
+
+.news__content {
+    float: left;
+    width: 600px;
+    
+}
+.news__date {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    color: #656464;
+}
+.news__title {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.news__text {
+font-family: 'Roboto';
+font-size: 18px;
+font-weight: 300;
+line-height: 1.5;
+text-align: left; 
+}
+

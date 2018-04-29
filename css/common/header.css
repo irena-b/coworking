@@ -1,0 +1,40 @@
+.header {
+    background-color: #27273e;
+    width: 100%;
+    height: 75px;
+    position: relative;
+}
+
+.header__left, .header__right {
+    float: left;
+    width: 50%;
+}
+
+.logo, .contacts {
+    display: inline-block;
+}
+.logo {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.header__right{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contacts__telephone{
+    font-size: 21px;
+    font-family: "Gotham Pro";
+    color:#fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+    text-decoration: none; 
+}
+.contacts__hours {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: #c02169;
+    opacity: .7;
+    text-decoration: underline;
+  }

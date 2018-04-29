@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../../fonts/GothamPro-Light.woff2') format('woff2'),
+        url('../../fonts/GothamPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: optional;
+    
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../../fonts/GothamPro-Bold.woff2') format('woff2'),
+        url('../../fonts/GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: optional;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../../fonts/GothamPro-LightItalic.woff2') format('woff2'),
+        url('../../fonts/GothamPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: optional;
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}

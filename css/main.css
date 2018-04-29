@@ -1,0 +1,17 @@
+/*main settings*/
+@import url('./layout/normalize.css');
+@import url('./layout/fonts.css');
+@import url('./layout/base.css');
+/*common blocks*/
+@import url('./common/header.css');
+@import url('./common/sidebar.css');
+@import url('./common/breadcrumbs.css');
+@import url('./common/pagination.css');
+@import url('./common/footer.css');
+@import url('./animation/jello.css');
+
+
+/*pages*/
+@import url('./blocks/main_page.css');
+@import url('./blocks/comments.css');
+@import url('./blocks/form.css');
