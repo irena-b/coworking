@@ -24,6 +24,13 @@
     text-decoration: none;
     font-weight: 300; 
   }
+  .pagination__page:hover {
+    background: #27273e;
+    color: #fff;
+    transition: background 1s;
+    
+    
+  }
   .pagination__btn_active {
       color: #000;
     font-weight: bold; 

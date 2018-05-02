@@ -52,28 +52,37 @@ font-weight: bold;
 }
 .social__icon.vk:hover {
     background: url('../../img/icons/vk_hover.png') center center no-repeat;
+    transition: 1s;
 }
 .social__icon.facebook {
     background: url('../../img/icons/fb.png') center center no-repeat;
 }
 .social__icon.facebook:hover {
     background: url('../../img/icons/fb_hover.png') center center no-repeat;
+    transition: 1s;
+    
 }
 .social__icon.google {
     background: url('../../img/icons/google.png') center center no-repeat;
 }
 .social__icon.google:hover {
     background: url('../../img/icons/google_hover.png') center center no-repeat;
+    transition: 1s;
+    
 }
 .social__icon.twitter {
     background: url('../../img/icons/twitter.png') center center no-repeat;
 }
 .social__icon.twitter:hover {
     background: url('../../img/icons/twitter_hover.png') center center no-repeat;
+    transition: 1s;
+    
 }
 .social__icon.mail {
     background: url('../../img/icons/mail.png') center center no-repeat;
 }
 .social__icon.mail:hover {
     background: url('../../img/icons/mail_hover.png') center center no-repeat;
+    transition: 1s;
+    
 }

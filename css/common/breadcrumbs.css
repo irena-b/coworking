@@ -1,5 +1,6 @@
 .breadcrumbs {
-    margin-top: 55px;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 .breadcrumbs__item:after{
     content: "/";
